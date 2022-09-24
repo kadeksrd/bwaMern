@@ -6,7 +6,7 @@ export default function Button(props) {
   // implementasi proptypes
   // className
   const className = [props.className];
-  // push props className
+  // push props to className
   if (props.isPrimary) className.push("btn-primary");
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
