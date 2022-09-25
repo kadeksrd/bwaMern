@@ -1,7 +1,7 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 import React from "react";
 import { render } from "@testing-library/react";
-import Button from "elements/button/index.";
+import Button from "elements/button";
 import { BrowserRouter as Router } from "react-router-dom";
 
 test("Should not allowed click button if isDisabled is present", () => {
